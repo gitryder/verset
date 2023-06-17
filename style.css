@@ -1,0 +1,27 @@
+:root,
+html,
+body {
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+#verse {
+  font-family: "system-ui", sans-serif;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 35%);
+}
